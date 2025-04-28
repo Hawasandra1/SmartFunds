@@ -8,9 +8,11 @@ import FooterSection from '../components/FooterSection.vue';
 </script>
 
 <template>
-  <HeroSection />
-  <FeaturesSection />
-  <FooterSection />
+  <div class="container mx-auto px-6 pt-16 md:pt-0">
+    <HeroSection />
+    <FeaturesSection />
+    <FooterSection />
+  </div>
 </template>
 
 <style scoped>
