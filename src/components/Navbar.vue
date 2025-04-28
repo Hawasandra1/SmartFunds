@@ -14,10 +14,10 @@ import { RouterLink } from 'vue-router';
                 <span class="text-xl font-bold text-gray-800">SmartFunds</span> </RouterLink>
 
             <div class="flex items-center space-x-5">
-                <RouterLink to="/dashboard" class="text-gray-600 hover:text-gray-900 font-medium hidden md:block">Dashboard</RouterLink>
+                <RouterLink to="/dashboard" class="text-gray-600 hover:text-gray-900 font-medium md:block">Dashboard</RouterLink>
 
-                <RouterLink to="/#features" class="text-gray-600 hover:text-gray-900 font-medium hidden md:block">Features</RouterLink>
-                <RouterLink to="/#contact" class="text-gray-600 hover:text-gray-900 font-medium hidden md:block">Contact</RouterLink>
+                <RouterLink to="/#features" class="text-gray-600 hover:text-gray-900 font-medium md:block">Features</RouterLink>
+                <RouterLink to="/#contact" class="text-gray-600 hover:text-gray-900 font-medium md:block">Contact</RouterLink>
 
                 <div class="flex items-center space-x-2 text-gray-600 hidden md:flex">
                      <i class="fas fa-cog text-lg"></i> </div>
