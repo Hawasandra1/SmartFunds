@@ -29,14 +29,14 @@
 </script>
 
 <template>
-  <div class="container mx-auto py-12 px-6 pt-16 md:pt-0">
-    <div class="text-center mb-8">
-      <h3 class="text-xl text-gray-700 mb-2">Hi 👋 Your financial insights will be displayed below</h3>
-      <h1 class="text-3xl font-bold text-gray-900">Your Financial Dashboard</h1>
+  <div class="container mx-auto py-12 px-6 pt-32 md:pt-0">
+
+    <div class="text-center mb-16 dashboard-header-spacing">
+      <h3 class="text-3xl font-bold text-gray-900">Hi 👋 , Your financial insights will be displayed below</h3>
     </div>
 
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8 mt-4">
       <div class="bg-white p-6 rounded-lg shadow-md">
         <div class="flex items-center justify-between mb-2">
           <h3 class="text-lg font-semibold text-gray-700">Total Balance</h3>
@@ -132,9 +132,6 @@
               </td>
             </tr>
              <tr>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                2025-04-25
-              </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                 Supermarket
               </td>
@@ -177,5 +174,12 @@
 /* Apply the animation to the placeholder text */
 .ai-advice-placeholder {
   animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Add a CSS rule to target the greeting/heading div and add top margin */
+/* This rule might be in your global CSS file if not here */
+.dashboard-header-spacing {
+  /* Keep or adjust this margin-top as needed */
+  margin-top: 100px; /* Example value */
 }
 </style>
