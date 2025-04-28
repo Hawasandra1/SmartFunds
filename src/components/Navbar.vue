@@ -13,7 +13,8 @@ import { RouterLink } from 'vue-router';
                 <svg class="w-8 h-8 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                 <span class="text-xl font-bold text-gray-800">SmartFunds</span> </RouterLink>
 
-            <div class="flex items-center space-x-5">
+            <div class="flex items-center flex-wrap justify-end space-x-2 md:space-x-5">
+
                 <RouterLink to="/dashboard" class="text-gray-600 hover:text-gray-900 font-medium md:block">Dashboard</RouterLink>
 
                 <RouterLink to="/#features" class="text-gray-600 hover:text-gray-900 font-medium md:block">Features</RouterLink>
@@ -22,7 +23,7 @@ import { RouterLink } from 'vue-router';
                 <div class="flex items-center space-x-2 text-gray-600 hidden md:flex">
                      <i class="fas fa-cog text-lg"></i> </div>
 
-                <RouterLink to="/login" class="btn btn-primary text-sm ml-4">Login / Sign Up</RouterLink>
+                <RouterLink to="/login" class="btn btn-primary text-sm">Login / Sign Up</RouterLink>
             </div>
         </div>
     </nav>
