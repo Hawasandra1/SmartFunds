@@ -32,7 +32,7 @@
   <div class="container mx-auto py-12 px-6 pt-32 md:pt-0">
 
     <div class="text-center mb-16 dashboard-header-spacing">
-      <h3 class="text-3xl font-bold text-gray-900">Hi 👋 , Your financial insights will be displayed below</h3>
+      <p class="text-3xl font-bold text-gray-900">Hi! 👋 , Your financial insights will be displayed below</p>
     </div>
 
 
