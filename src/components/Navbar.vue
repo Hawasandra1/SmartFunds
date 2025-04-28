@@ -18,7 +18,7 @@ import { RouterLink } from 'vue-router';
                 <RouterLink to="/dashboard" class="text-gray-600 hover:text-gray-900 font-medium md:block">Dashboard</RouterLink>
 
                 <RouterLink to="/#features" class="text-gray-600 hover:text-gray-900 font-medium md:block">Features</RouterLink>
-                <RouterLink to="/#contact" class="text-gray-600 hover:text-gray-900 font-medium md:block">Contact</RouterLink>
+               
 
                 <div class="flex items-center space-x-2 text-gray-600 hidden md:flex">
                      <i class="fas fa-cog text-lg"></i> </div>
