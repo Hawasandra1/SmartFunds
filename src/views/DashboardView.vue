@@ -31,7 +31,7 @@
 <template>
   <div class="container mx-auto py-12 px-6 pt-16 md:pt-0">
     <div class="text-center mb-8">
-      <p class="text-xl text-gray-700 mb-2">Hi User 👋</p>
+      <p class="text-xl text-black-700 mb-2">Hi User 👋</p>
       <h1 class="text-3xl font-bold text-gray-900">Your Financial Dashboard</h1>
     </div>
 
