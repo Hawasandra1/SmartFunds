@@ -158,7 +158,7 @@
      </div>
 
     </div>
-</template>
+  </template>
 
 <style scoped>
 /* Add any component-specific styles for the dashboard layout here */
