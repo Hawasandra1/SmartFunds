@@ -23,7 +23,8 @@ const currentYear = computed(() => {
             </div>
 
             <div class="mb-6 flex justify-center items-center space-x-2">
-                <i class="fas fa-map-marker-alt">Location</i>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Location</span>
             </div>
 
             <p class="text-sm">&copy; {{ currentYear }} SmartFunds. All rights reserved.</p>
