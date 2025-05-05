@@ -132,6 +132,9 @@
               </td>
             </tr>
              <tr>
+               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                2025-04-26
+              </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                 Supermarket
               </td>
